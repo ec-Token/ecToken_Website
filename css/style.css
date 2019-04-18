@@ -1,0 +1,73 @@
+@font-face {
+	  font-family: timeburnernormal;
+	  src: url("../fonts/timeburnernormal.ttf");
+	}
+
+@font-face {
+	  font-family: timeburnerbold;
+	  src: url("../fonts/timeburnerbold.ttf");
+	}
+html{
+	background-color: rgba(30,30,30);
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-family: timeburnernormal;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+#site_main{
+	width: 100%;
+
+}
+#site_main #row1{
+
+	background-image: url("../images/row1_bg.jpg");
+	
+	height: 700px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+#bg_gradient{
+	background: linear-gradient(to bottom, rgba(30,30,30, 0), rgba(30,30,30, 0), rgba(30,30,30,0),rgba(30,30,30));
+	height: 100%;
+}
+#site_main #row2{
+	padding-top: 80px;
+}
+#logo{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	margin-top: -20px;
+}
+
+#logo_main_top{
+	top: 60px;
+	display: table;
+	position: relative;
+	padding: 40px;
+
+	background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0.5),rgba(255,255,255,1));
+	border-radius: 20px;
+}
+
+#desc{
+	font-size: 24px; 
+	padding-bottom: 20px;
+}
+
+#title_desc{
+	font-size: 32px;
+}
+#part_title{
+	font-family: timeburnerbold; 
+	text-align: center; 
+	font-size: 22px;
+}
+table td, table td * {
+    vertical-align: top;
+}
